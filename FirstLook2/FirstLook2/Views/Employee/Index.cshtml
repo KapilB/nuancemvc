@@ -1,0 +1,29 @@
+﻿@model IEnumerable<FirstLook2.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="container-fluid">
+    <div class="row-fluid" id="resultsArea" data-bind="foreach: employees">
+
+        <div class="row-fluid well well-small">
+            <div class="span4">
+                <h2 data-bind="text: FirstName"></h2>
+            </div>
+            <div data-bind="text: Company"></div>
+        </div>
+        <div class="span4" data-bind="text: Address">
+        </div>
+    </div>
+    @Html.Action("Index", "Reviews", new { employeeId = 2 })
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        var vm = {
+            employees : @Html.Raw(Json.Encode(Model))
+        };
+
+        ko.applyBindings(vm);
+    </script>
+}

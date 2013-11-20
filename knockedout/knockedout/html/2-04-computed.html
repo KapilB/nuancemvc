@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/knockout-3.0.0.js"></script>
+    <script src="Scripts/jquery-2.0.3.js"></script>
+</head>
+<body>
+    <input type="text" data-bind="value: firstName" />
+    <input type="text" data-bind="value: lastName" />
+
+    <div>
+        <span data-bind="text: fullName, visible: isFullNameVisible"></span>
+    </div>
+
+    <div>
+        <input type="button" value="Toggle Full Name" data-bind="click: toggleFullName"/>
+     </div>
+   
+    <div>
+        <select data-bind="options: colors, value: selectedColor,
+    optionsText: 'name', optionsValue: 'key'" ></select>
+        <span data-bind="text: selectedColor"></span>
+    </div>
+</body>
+
+<script type="text/javascript">
+
+    function employee() {
+        firstName = ko.observable('Abhinav'),
+        lastName = ko.observable('Gujjar'),
+
+        selectedColor = ko.observable('B'),
+         isFullNameVisible = ko.computed(function () {
+             return (this.selectedColor() === 'B');
+         }, this),
+        colors = ko.observableArray([
+            { name: 'White', key: 'W' },
+            { name: 'Blue', key: 'B' }]
+            ),
+
+
+        fullName = ko.computed(function () {
+            return this.firstName() + ' ' + this.lastName();
+        }, this),
+        toggleFullName = function () {
+            var visibility = !isFullNameVisible();
+            isFullNameVisible(visibility);
+        }
+    };
+
+    ko.applyBindings(employee);
+
+</script>
+</html>

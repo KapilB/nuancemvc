@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLook", "FirstLook\FirstLook.csproj", "{ED4EC142-8835-4B7C-8D62-1B0AFA9AEDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstLook.Tests", "FirstLook.Tests\FirstLook.Tests.csproj", "{FC3B2710-F30E-459A-A73D-3044120AF572}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED4EC142-8835-4B7C-8D62-1B0AFA9AEDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4EC142-8835-4B7C-8D62-1B0AFA9AEDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4EC142-8835-4B7C-8D62-1B0AFA9AEDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4EC142-8835-4B7C-8D62-1B0AFA9AEDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3B2710-F30E-459A-A73D-3044120AF572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3B2710-F30E-459A-A73D-3044120AF572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3B2710-F30E-459A-A73D-3044120AF572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3B2710-F30E-459A-A73D-3044120AF572}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

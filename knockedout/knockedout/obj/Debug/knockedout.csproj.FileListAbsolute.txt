@@ -1,0 +1,5 @@
+D:\development\Dev-Training\knockedout\knockedout\bin\knockedout.dll
+D:\development\Dev-Training\knockedout\knockedout\bin\knockedout.pdb
+D:\development\Dev-Training\knockedout\knockedout\obj\Debug\knockedout.csprojResolveAssemblyReference.cache
+D:\development\Dev-Training\knockedout\knockedout\obj\Debug\knockedout.dll
+D:\development\Dev-Training\knockedout\knockedout\obj\Debug\knockedout.pdb

@@ -1,0 +1,5 @@
+D:\development\Dev-Training\NuanceSPADemo\NuanceSPADemo\bin\NuanceSPADemo.dll
+D:\development\Dev-Training\NuanceSPADemo\NuanceSPADemo\bin\NuanceSPADemo.pdb
+D:\development\Dev-Training\NuanceSPADemo\NuanceSPADemo\obj\Debug\NuanceSPADemo.csprojResolveAssemblyReference.cache
+D:\development\Dev-Training\NuanceSPADemo\NuanceSPADemo\obj\Debug\NuanceSPADemo.dll
+D:\development\Dev-Training\NuanceSPADemo\NuanceSPADemo\obj\Debug\NuanceSPADemo.pdb
